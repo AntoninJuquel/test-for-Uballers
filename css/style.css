@@ -1,0 +1,148 @@
+body{
+    text-align: center;
+}
+
+/* Formulaire */
+.form{
+    text-align: left;
+    margin: auto;
+    width: 450px;
+}
+
+label, input{
+    margin: 5px 0;
+}
+
+input, select{
+    border-radius: 7px;
+}
+
+input{
+    padding: 8px 10px;
+}
+section{
+    padding: 0 50px 20px;
+}
+
+/* Login Section */
+
+#login{
+    color: white;
+    background-color:rgb(59, 89, 151);
+}
+
+.log-num-ou-mail, .log-password, .log-a-account{
+    border-radius: 0;
+    margin: 0 2px;
+    display: block;
+    font-size:11px;
+    width: 130px;
+}
+
+.log-password-input, .log-num-ou-mail-input{
+    height: 30px;
+}
+
+.log-div-mail{
+    float: left;
+}
+.log-a-account{
+    font-size: 8.4px;
+    color: white;
+}
+
+.log-btn-box{
+    float: right;
+    margin: 20px 5px 0 0;
+}
+
+.log-btn-text{
+    color: white;
+
+    border-width: 1px;
+    background-color: rgb(66, 103, 178);
+    border-color: rgb(41, 72, 125);
+
+    font-size:10px;
+    height: 30px;
+    width: 70px;
+}
+
+
+/* Register Section */
+
+#register{
+    background: linear-gradient(#ffffff, #d4d8e8);
+}
+
+.reg-div-intro{
+    padding: 50px 0 0;
+}
+.reg-div-intro-p, .reg-date-naissance, .sexe, .reg-btn{
+    font-weight: bold;
+}
+
+
+
+.log-div-password, .reg-div-prenom, .reg-div-nom, .reg-div-section-date-naissance{
+    display:inline-block;
+}
+.reg-prenom, .reg-nom{
+    width: 172px;
+}
+
+
+
+.reg-num-ou-mail, .reg-num-ou-mail-confirmation, .reg-password{
+    width: 348px;
+}
+
+
+.reg-date-naissance{
+    margin: 20px 0 5px;
+}
+.date-naissance-text-why{
+    width: 100px;
+    font-size: 10px;
+}
+
+#reg-div-sexe{
+    margin: 20px 0;
+    font-size: 24px;
+}
+
+
+.CGU{
+    font-size: 12px;
+}
+
+
+
+.reg-btn{
+    font-size: 20px;
+    color: white;
+
+    background-color: green;
+
+    height: 40px;
+    width: 200px;
+
+    border-width: 1px;
+    border-radius: 7px;
+    border-color: rgb(12, 63, 31);
+}
+
+
+
+
+
+/* Correct-Incorrect */
+.correct{
+    box-shadow: greenyellow;
+    border-color: greenyellow;
+}
+
+.incorrect{
+    box-shadow: red;
+    border-color: red;
+}
